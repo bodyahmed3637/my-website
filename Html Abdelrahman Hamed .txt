@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdelrahman Hamed</title>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        /* اسم المستخدم */
+        .name {
+            font-size: 40px;
+            color: #00bfff;  /* اللون الأزرق */
+            opacity: 0;  /* جعل الاسم غير مرئي في البداية */
+            animation: nameAnimation 5s forwards;  /* تطبيق الأنيميشن */
+        }
+
+        /* تعريف حركة الاسم */
+        @keyframes nameAnimation {
+            0% { opacity: 0; transform: translateY(-30px); }
+            50% { opacity: 1; transform: translateY(0); }
+            100% { opacity: 0; transform: translateY(30px); }
+        }
+
+        .links {
+            margin-top: 20px;
+        }
+
+        .links a {
+            display: inline-block;
+            margin: 10px;
+            text-decoration: none;
+            color: #00bfff;
+            font-size: 18px;
+            transition: transform 0.3s ease;
+        }
+
+        .links a:hover {
+            transform: scale(1.2);
+        }
+
+        .message {
+            font-size: 24px;
+            color: #ff6347;
+            margin-top: 30px;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            color: white;
+            font-size: 20px;
+            transition: color 0.3s;
+        }
+
+        .social-links a:hover {
+            color: #ff6347;
+        }
+
+        .profile-image {629f31ca-77b6-4688-9157-d8bf08304058.gif
+            margin-top: 20px;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-image: url('YOUR_IMAGE_URL_HERE'); /* ضع رابط الصورة هنا */
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="629f31ca-77b6-4688-9157-d8bf08304058.gif"></div>
+    <h1 class="name">Abdelrahman Hamed</h1>
+    <div class="message">Welcome to my world</div>
+
+    <div class="social-links">
+        <a href="https://www.facebook.com/share/18TaUFUTLX/" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/abdelrahman_hamed800/profilecard/?igsh=bDdxNmxvNTUzdjd3" target="_blank">Instagram</a>
+        <a href="https://www.snapchat.com/add/b_hamed3571?share_id=jvOZR71NVjM&locale=en-US" target="_blank">Snapchat</a>
+        <a href="https://www.tiktok.com/@abdelrahman_hamed77?_r=1&_d=efkb9fd7cggmka&sec_uid=MS4wLjABAAAAuruNp" target="_blank">TikTok</a>
+    </div>
+
+</body>
+</html>
